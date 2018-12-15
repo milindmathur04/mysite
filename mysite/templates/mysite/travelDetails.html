@@ -1,0 +1,13 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container detailContent">
+        <div class="text-center" id="imageDetail">
+            <figure class="figure">
+                <img class="figure-img img-fluid rounded" src="{% static photo.get_source %}">
+                <figcaption class="figure-caption">{{ photo.description }}</figcaption>
+            </figure>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container topicContent">
+        {% if descriptions %}
+            <div class="container" style="margin-top: 30px;">
+                {% for list_of_description in list_of_descriptions %}
+                    <div class="row">
+                        {% for description in list_of_description %}
+                            <div class="col" id="{{ description.id }}" style="padding-bottom: 40px">
+                                <figure class="figure">
+                                    <a href="/traveldetails/{{ project.name }}/{{ description.id }}"><img
+                                            class="img-thumbnail" src="{% static description.get_source %}"></a>
+                                    <figcaption class="figure-caption">{{ description.description }}</figcaption>
+                                </figure>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No Description yet.</p>
+        {% endif %}
+    </div>
+{% endblock %}

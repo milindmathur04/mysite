@@ -1,0 +1,22 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container topicContent">
+        {% if images %}
+             <div class="container" style="margin-top: 30px;">
+                {% for list_of_image in list_of_images %}
+                    <div class="row">
+                      {% for image in list_of_image %}
+                        <div class="col" id="{{image.id}}" style="padding-bottom: 40px">
+                          <a href="/traveldetails/{{ topic.name }}/{{image.id}}"><img class="img-thumbnail" src="{% static image.get_source %}"></a>
+                        </div>
+                      {% endfor %}
+                  </div>
+                {% endfor %}
+             </div>
+        {% else %}
+            <p>No images yet.</p>
+        {% endif %}
+    </div>
+{% endblock %}
