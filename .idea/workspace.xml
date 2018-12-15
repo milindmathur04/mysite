@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4586603c-93b7-451a-af18-8004d8899397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e4_Milind_Portfolio_Website/requirements/base.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +47,7 @@
           <entry key="html" value="1823" />
           <entry key="py" value="1686" />
           <entry key="py@e4_Milind_Portfolio_Website" value="254" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -55,7 +55,7 @@
           <entry key="CSS" value="5" />
           <entry key="CommandLine" value="232" />
           <entry key="HTML" value="1823" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="Python" value="1686" />
         </counts>
       </usages-collector>
@@ -179,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/e4_Milind_Portfolio_Website/requirements/base.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -352,6 +352,14 @@
       <option name="presentableId" value="Default" />
       <updated>1542643503397</updated>
     </task>
+    <task id="LOCAL-00001" summary="third">
+      <created>1544915166595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544915166596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -411,6 +419,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="third" />
+    <option name="LAST_COMMIT_MESSAGE" value="third" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/e4_Milind_Portfolio_Website/settings.py">
@@ -603,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/e4_Milind_Portfolio_Website/requirements/base.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
